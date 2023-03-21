@@ -1,0 +1,15 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+input,
+textarea {
+  @apply w-full appearance-none text-sm focus:outline-none focus:border-primary placeholder-dark-tint/50 py-3 pe-4 border-b-2 border-solid border-dark-tint/50;
+}
